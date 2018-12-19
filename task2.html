@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Week8 ARRAYS</title>
+<link href="task2.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<form name="filmForm">
+  <h1>Worcester University eSport League Competition</h1>
+  <p>Please enter information about each player into the form below. You can add as many player as you like.</p>
+  <hr>
+  <table>
+    <tr>
+  <td>Name :</td>
+  <td><input type="text" id="customer"</td>
+      </tr>
+      <tr>
+        <td>Age :</td>
+        <td><input type="text" id="film"</td>
+        </tr>
+        <tr>
+          <td>Gender :</td>
+          <td><input type="text" id="ticket"</td>
+          </tr>
+          <!--NOT DONE YET BELOW-->
+          <tr>
+          <td>Game :</td>
+          <td><input type="text" id="game"</td>
+          </tr>
+          </table>
+          <p>Please enter as many scores as you like, and leave the rest blank. Unfortunately we cannot handle more than 5 scores.</p>
+          <table id="scores">
+                 <tr><td>Score 1:</td><td><input id="s1" type="text" /></td></tr>
+                 <tr><td>Score 2:</td><td><input id="s2" type="text" /></td></tr>
+                 <tr><td>Score 3:</td><td><input id="s3" type="text" /></td></tr>
+                 <tr><td>Score 4:</td><td><input id="s4" type="text" /></td></tr>
+                 <tr><td>Score 5:</td><td><input id="s5" type="text" /></td></tr>
+             </table>
+
+
+
+<button id="joint_button" type="button" value="save/show" onclick="showAndSave()">Save and Show</button><br>
+
+<button id="write_button" type="button" value="write" onclick="writeArray()">Write Out Arrays</button>
+
+
+</form>
+<hr>
+
+<div id="display" class="display"></div>
+<div id="display2" class="display2"></div>
+<p id="show2" class="show2"></p>
+
+
+
+
+
+
+
+<script src="task2.js"></script>
+</body>
+</html>
